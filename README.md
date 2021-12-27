@@ -1,5 +1,5 @@
 # UAS_PBO
-
+Class Diagram :
 ```mermaid
 classDiagram
     Nasabah <-- Perusahaan
@@ -39,4 +39,11 @@ classDiagram
         +Individu(nik, npwp, nama, alamat, idNasabah, Rekening)
         +print()
     }
+```
+ER Diagram :
+ ```mermaid  
+  erDiagram
+          Nasabah ||--|| Perusahaan : is
+          Nasabah ||--|| Individu : is
+          Nasabah ||--|{ Rekening : have
 ```
