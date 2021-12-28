@@ -46,4 +46,26 @@ ER Diagram :
           Nasabah ||--|| Perusahaan : is
           Nasabah ||--|| Individu : is
           Nasabah ||--|{ Rekening : have
+          
+          REKENING{
+                int noRekening
+                double saldo
+                int id_nasabah
+            }
+
+            Nasbaah {
+                int idNasabah
+                string nama
+                string alamat
+            }
+            
+            INDIVIDU{
+                int id_nasabah
+                long nik
+                long npwp
+            }
+            PERUSAHAAN{
+                int id_nasabah
+                string nib
+            }
 ```
