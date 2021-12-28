@@ -1,4 +1,15 @@
 # UAS_PBO
+M YAZKA AFFAN F -  2017051013
+SITI NABILA -2057051006
+NUR SETIOWATI -  2017051013
+
+
+Pembagian Tugas :
+
+M YAZKA AFFAN F: Membuat Class Diagram dan ER Diagram sesuai yang ada dalam project
+NUR SETIOWATI: Menginisialisasi dan mengembangkan class yang digunakan dalam project,Membuat dan menghubungkan program dengan database MySQL
+SITI NABILA : Mendesain dan membuat GUI menggunakan JafaFX dan Scene Builder
+
 Class Diagram :
 ```mermaid
 classDiagram
